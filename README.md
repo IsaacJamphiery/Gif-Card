@@ -1,1 +1,1 @@
-# Gif-Card
+# GifCard
