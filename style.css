@@ -3,7 +3,24 @@
     padding: 0;
 }
 .cabecalho{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 15px 25px;
+}
+h1{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(255, 196, 0);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1;
 }
 .cartao{
     width: 260 px;
