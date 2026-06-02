@@ -23,9 +23,17 @@ main{
     flex: 1;
 }
 .cartao{
-    width: 260 px;
-    height: 200 px;
+    width: 260px;
+    height: 200px;
 }
 .cartao-imagem{
     width: 100%;
+}
+.cartao-interno{
+    position: relative;
+}
+.cartao-mentira,.cartao-verso{
+    position: absolute;
+    border-radius: 12px;
+    box-shadow:0 6px 12px;
 }
