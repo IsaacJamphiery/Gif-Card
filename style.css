@@ -3,14 +3,14 @@
     padding: 0;
 }
 .cabecalho{
-    background-color: blueviolet;
+    background-color: rgb(55, 43, 226);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 25px;
 }
 h1{
-    color: red;
+    color: rgb(0, 225, 255);
     text-decoration: none;
 }
 body{
