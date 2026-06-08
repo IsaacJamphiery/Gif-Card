@@ -10,11 +10,11 @@
     padding: 15px 25px;
 }
 h1{
-    color: white;
+    color: red;
     text-decoration: none;
 }
 body{
-    background-color: rgb(255, 196, 0);
+    background-color: white;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -31,9 +31,22 @@ main{
 }
 .cartao-interno{
     position: relative;
+    transition: transform 0.8s;
+    transform: preserve-3d;
 }
 .cartao-mentira,.cartao-verso{
     position: absolute;
     border-radius: 12px;
-    box-shadow:0 6px 12px;
+    box-shadow:0 6px 12px black;
+    backface-visibility: hidden;
+}
+.cartao-verso{
+    transform: rotate(180deg);
+}
+.cartao:hover .cartao-interno{
+    transform: rotateY(180deg)
+}
+section{
+    display:flex;
+    gap: 16px;
 }
